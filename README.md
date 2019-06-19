@@ -1,6 +1,8 @@
+# Minkeytest!
+
 ![minkey](https://i.imgur.com/boZFEMu.png)
 
-# Let's minkeypatch Minitest!
+## Minitest hates you!
 
 Minitest thinks you suck.  Minitest wants to make it hard for you.  Minitest thinks it knows better than you.  Let's minkeypatch Minitest!
 
