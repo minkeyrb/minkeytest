@@ -2,19 +2,25 @@
 
 ![minkey](https://i.imgur.com/boZFEMu.png)
 
-Minitest thinks you suck.  Let's minkeypatch Minitest!
+Minitest thinks you suck.  Minitest wants to make it hard for you.  Minitest thinks it knows better than you.  Let's minkeypatch Minitest!
 
-## Run tests **AND suites** in order!
+## Minkeytest is for you!
 
-It's easy when you Minkeytest!
+Minkeytest likes you.  Minkeytest wants to make it easy for you.  Minkeytest knows how to give you options you need.  Let's use Minkeytest!
 
-
+    gem install minkeytest
+    
 ```ruby
-module Minitest
-  def self.__run(reporter, options)
-    suites = Runnable.runnables.reject { |s| s.runnable_methods.empty?}
-    suites.map { |suite| suite.run(reporter, options) }
-  end
-end
+require 'minkeytest'
+
+# Use all the minkeypatches!
+Minkeytest.full_minkey!
+
+# Use one of the minkeypatches!
+Minkeytest.ordered!
 ```
+
+
+
+
 
