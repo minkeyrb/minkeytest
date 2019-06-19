@@ -20,11 +20,37 @@ require 'minkeytest'
 # Use all the minkeypatches!
 Minkeytest.full_minkey!
 
-# Use one of the minkeypatches!
-Minkeytest.ordered!
+# Use one of the smart minkeypatches!
+Minkeytest.natural_order!
 ```
 
+## Minkeytest is gentle!
 
+Minkeypatches don't change much!  Minkeypatches only fix bad decisions!
+
+Minitest is capricious!
+
+```ruby
+module Minitest
+  def self.__run reporter, options
+    suites = Runnable.runnables.reject { |s| s.runnable_methods.empty? }.shuffle
+    parallel, serial = suites.partition { |s| s.test_order == :parallel }
+    serial.map { |suite| suite.run reporter, options } +
+      parallel.map { |suite| suite.run reporter, options }
+  end
+end
+```
+
+Minkeytest is helpful!
+
+```ruby
+module Minitest
+  def self.__run(reporter, options)
+    suites = Runnable.runnables.reject { |s| s.runnable_methods.empty?}
+    suites.map { |suite| suite.run(reporter, options) }
+  end
+end
+```
 
 
 
