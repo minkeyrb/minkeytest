@@ -4,7 +4,9 @@
 
 ## Minitest hates you!
 
-Minitest thinks you suck.  Minitest wants to make it hard for you.  Minitest thinks it knows better than you.  Let's minkeypatch Minitest!
+Minitest [thinks you suck](https://github.com/seattlerb/minitest/blob/e6bc4485730403faff6966c1671cf5de72b2d233/lib/minitest/test.rb#L31).  Minitest wants to make it hard for you.  Minitest thinks it knows better than you.
+
+**Let's minkeypatch Minitest!**
 
 ## Minkeytest is for you!
 
