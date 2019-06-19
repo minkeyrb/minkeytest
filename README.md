@@ -1,4 +1,4 @@
-# Let's fix Minitest!
+# Let's minkeypatch Minitest!
 
 ![minkey](https://i.imgur.com/boZFEMu.png)
 
