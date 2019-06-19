@@ -26,7 +26,7 @@ Minkeytest.natural_order!
 
 ## Minkeytest is gentle!
 
-Minkeypatches don't change much!  Minkeypatches only fix bad decisions!
+Minkeypatches don't change much!  Minkeypatches only fix unfriendly decisions!
 
 Minitest is capricious!
 
