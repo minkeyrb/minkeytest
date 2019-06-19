@@ -10,7 +10,9 @@ Let's minkeypatch Minitest!
 
 ## Minkeytest is for you!
 
-Minkeytest likes you.  Minkeytest wants to make it easy for you.  Minkeytest knows how to give you options you need.  Let's use Minkeytest!
+Minkeytest likes you.  Minkeytest wants to make it easy for you.  Minkeytest knows how to give you options you need.  
+
+Let's use Minkeytest!
 
     gem install minkeytest
     
